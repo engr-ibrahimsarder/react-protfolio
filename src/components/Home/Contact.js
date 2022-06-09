@@ -1,11 +1,18 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
+import { success } from 'daisyui/src/colors';
 
 const Contact = () => {
   function sendEmail(e){
     e.preventDefault();
 
-    emailjs.sendForm()
+    emailjs.sendForm('service_3o8zsfr','template_qojkvke',e.target)
+    .then(res=>{
+      console.log(success)
+    })
+    .then(err =>{
+      console.log(err)
+    })
   }
   return (
     <div class="hero min-h-screen bg-base-200">
@@ -21,19 +28,19 @@ const Contact = () => {
             <label class="label">
               <span class="label-text text-amber-400">Name</span>
             </label>
-            <input type="text"  class="input input-warning text-xl" />
+            <input type="text" name='name' class="input input-warning text-xl" />
           </div>
           <div class="form-control">
             <label class="label">
               <span class="label-text text-amber-400">Email</span>
             </label>
-            <input type="text" class="input input-warning text-xl" />
+            <input type="text" name='user_email' class="input input-warning text-xl" />
           </div>
           <div class="form-control">
             <label class="label">
               <span class="label-text text-amber-400">Your Opinion</span>
             </label>
-            <textarea type="text" class="textarea textarea-warning text-xl" />
+            <textarea type="text" name='message' class="textarea textarea-warning text-xl" />
           </div>
           <div class="form-control mt-6">
             <button class="btn btn-wide btn-outline btn-warning">Submit</button>
