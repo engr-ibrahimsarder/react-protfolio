@@ -1,0 +1,20 @@
+[
+  {
+    "id":1,
+    "name": "Furniture",
+    "description" : "This is a website for selling perfumes. For this site I used ReactJs, Javascript, React Router-DOM, JSX, Tailwind CSS, Firebase Authentication, React Hooks and many more.",
+    "photo": "/src/accesst/project-1.png"
+  },
+  {
+    "id":2,
+    "name": "Gym trainer",
+    "description" : "This website's theme is Gym trainer. For this site I used ReactJs, Javascript, React Router-DOM, JSX, Tailwind CSS, Firebase Authentication, React Hooks, MongoDB, ExpressJs, NodeJs and many more.",
+    "photo":"/src/accesst/project-2.png"
+  },
+  {
+    "id":3,
+    "name": "Machinery Tools",
+    "description" : "This is a website for manufacturing machinery tools. For this site I used ReactJs, Javascript, React Router-DOM, JSX, Tailwind CSS, Firebase Authentication, React Hooks, MongoDB, ExpressJs, NodeJs, Stripe Payment Methods and many more.",
+    "photo":"/src/accesst/project-3.png"
+  }
+]

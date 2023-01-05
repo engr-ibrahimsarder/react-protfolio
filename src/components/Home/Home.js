@@ -1,14 +1,13 @@
 import React from 'react';
 import 'animate.css';
 import Banner from './Banner';
-import Project from './Project';
-
+import Projects from './Projects';
 
 const Home = () => {
   return (
     <>
     <Banner></Banner>
-    <Project></Project>
+    <Projects></Projects>
     </>
   );
 };

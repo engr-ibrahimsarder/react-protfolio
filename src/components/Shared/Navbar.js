@@ -1,14 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import img from '../../accesst/Md_Ibrahim_Sarder_Resume (1).pdf'
+import resume from '../../accesst/Ibrahim_Resume.pdf';
 
 const Navbar = () => {
   const menuItem = <>
        <li className='text-white'><Link to='/'>Home</Link></li>
         <li className='text-white'><Link to='/about'>ABOUT ME</Link></li>
+        <li className='text-white'><Link to='/blogs'>BLOGS</Link></li>
         <li className='text-white'><Link to='/project'>PROJECTS</Link></li>
         <li className='text-white'><Link to='/contact'>CONTACT ME</Link></li>
-        <li className='text-white'><a href={img} download>DOWNLOAD RESUME</a></li>
+        <li className='text-white'><a href={resume} download>DOWNLOAD RESUME</a></li>
   </>
   return (
     <div class="navbar bg-orange-800">
@@ -21,7 +22,7 @@ const Navbar = () => {
         {menuItem}     
         </ul>
       </div>
-      <a class="btn btn-ghost normal-case text-xl"></a>
+      <button class="btn btn-ghost normal-case text-4xl font-mono text-bold text-amber-400 ml-28">Protfolio</button>
     </div>
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal p-0">

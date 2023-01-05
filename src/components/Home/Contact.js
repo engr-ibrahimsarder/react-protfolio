@@ -15,7 +15,7 @@ const Contact = () => {
     })
   }
   return (
-    <div class="hero min-h-screen bg-base-200">
+    <div class="hero min-h-screen">
     <div class="hero-content flex-col lg:flex-row-reverse">
       <div class="text-center lg:text-left">
         <h1 class="text-5xl font-bold text-amber-400">Hey THERE!</h1>
