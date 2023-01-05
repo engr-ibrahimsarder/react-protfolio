@@ -9,7 +9,7 @@ const Footer = () => {
       getYear();
   }, [])
   return (
-    <footer class="footer footer-center p-10 bg-base text-primary-content">
+    <footer class="footer footer-center p-10 bg-base-100 text-primary-content">
   <div class="grid grid-flow-col gap-4 text-amber-400">
    <Link to='/'>HOME</Link>
    <Link to='/about'>ABOUT</Link>
