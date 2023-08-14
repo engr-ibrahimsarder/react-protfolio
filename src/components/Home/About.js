@@ -1,14 +1,15 @@
 import React from 'react';
 import photo from '../../accesst/photo.png'
+import './Banner.css';
 
 const About = () => {
   return (
     <div class="hero min-h-screen">
     <div class="hero-content flex-col lg:flex-row-reverse">
-      <div className='w-6/12 animate__animated animate__fadeInDown'>
-      <img style={{width:'80%'}} src={photo} alt=''></img>
+      <div id='bg' className='w-6/12 animate__animated animate__fadeInDown'>
+      <img style={{width:'100%'}} src={photo} alt=''></img>
       </div>
-      <div className='w-6/12 animate__animated animate__fadeInUp'>
+      <div className='w-6/12 animate__animated animate__fadeInUp lg:pr-44'>
         <h1 class="text-xl text-justify text-amber-400 my-5">
         My name is Ibrahim Sarder, and I'm a tech-savvy teenager with a strong interest in programming. I am passionate in providing solutions that improve people's lives while also challenging me. Currently enhancing my abilities as a Front-End and Back-End developer.</h1>
 
