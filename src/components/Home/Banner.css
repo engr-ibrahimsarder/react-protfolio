@@ -1,7 +1,10 @@
 #bg{
-  height: 289px;
+  height: 300px;
   width: 300px;
-  border-radius: 100px 10px 10px 0px;
+  border-radius: 10px 100px / 120px;
+  background-image: linear-gradient(yellow, red);
+}
+#bg:hover{
   background-image: linear-gradient(red, yellow);
 }
 #effect {
